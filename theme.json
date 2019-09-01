@@ -1,0 +1,27 @@
+{
+    "name": "Terminal",
+    "description": "A minimal blog theme for terminal lovers",
+	"author": "Marc Anton Dahmen",
+    "license": "MIT",
+    "tooltips": {
+        "appleTouchIcon": "The file to be used as Apple touch icon",
+        "checkboxDarkTheme": "Enable dark theme",
+        "checkboxShowInFooter": "Show a link to this page in the footer menu",
+        "checkboxShowInNavbar": "Show a link to this page in the navbar menu",
+        "date": "Set a date to show up as post info",
+        "favicon": "The file to be use as favicon",
+        "formatDate": "The format for displaying the date of a page",
+        "itemsFooter": "Additional markup to be added to page's footer",
+        "itemsHeader": "Additional markup to be added to page's <head></head> section",
+        "itemsPerPage": "The maximum number of items shown on a blog page",
+        "labelMore": "Optional label text for the \"More\" buttons",
+        "labelShowAll": "Label text for button to clear all filters",
+        "metaTitle": "A custom meta title",
+        "ogImage": "Open graph image",
+        "placeholderSearch": "Placeholder text for the search field of the main menu",
+        "templateFilter": "Filter blog items by template names (regex)",
+        "text": "The main content of the page",
+        "textTeaser": "The content of the teaser section",
+        "urlTagLinkTarget": "The target URL of the pagelist page for the tag buttons"
+    }
+}

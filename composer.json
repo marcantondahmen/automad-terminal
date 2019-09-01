@@ -1,0 +1,17 @@
+{
+    "name": "dahmen/automad-terminal",
+    "description": "A minimal Automad blog theme for terminal lovers",
+    "type": "automad-package",
+    "keywords": ["theme"],
+    "license": "MIT",
+	"authors": [
+		{
+			"name": "Marc Anton Dahmen",
+			"homepage": "https://marcdahmen.de"
+		}
+	],
+    "require": {
+        "automad/package-installer": "^1.1",
+		"automad/meta-tags": "^1.1"
+    }
+}
