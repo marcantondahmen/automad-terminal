@@ -23,26 +23,34 @@
 					>
 				</form>
 			<@ end @>
-			<@ if not @{ ?filter } @>
-				<a href="@{ url }"><strong>@{ labelShowAll | def ('Show all') }</strong></a>
-			<@ else @>
-				<a href="@{ url }">@{ labelShowAll | def ('Show all') }</a>
-			<@ end @>
-			|
-			<@ foreach in filters @>
-				<a 
-				href="?<@ queryStringMerge { filter: @{ :filter } } @>"
-				><@ if @{ ?filter } = @{ :filter} @>
-					<strong>#@{ :filter }</strong>
+			<@ if not @{ checkboxHideFilters } @>
+				<@ if not @{ ?filter } @>
+					<a href="@{ url }"><strong>@{ labelShowAll | def ('Show all') }</strong></a>
 				<@ else @>
-					#@{ :filter }
-				<@ end @></a>
+					<a href="@{ url }">@{ labelShowAll | def ('Show all') }</a>
+				<@ end @>
+				|
+				<@ foreach in filters @>
+					<a 
+					href="?<@ queryStringMerge { filter: @{ :filter } } @>"
+					><@ if @{ ?filter } = @{ :filter} @>
+						<strong>#@{ :filter }</strong>
+					<@ else @>
+						#@{ :filter }
+					<@ end @></a>
+				<@ end @>
+				<br>
+			<@ end @>
+			<@ if not @{ checkboxHideFilters } or not @{ checkboxHideSearch } @>
+				<br><br>
 			<@ end @>
 		</header>
 	</section>
 	<section>
 		<@ foreach in pagelist @>
-			<hr>
+			<@ if @{ :i } > 1 @>
+				<hr>	
+			<@ end @>
 			<a href="@{ url }"><h2>@{ title }</h2></a>
 			<p>
 				<@ date.php @>
