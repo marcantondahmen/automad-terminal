@@ -5,7 +5,7 @@
 		template: @{ templateFilter }, 
 		filter: @{ ?filter }, 
 		search: @{ ?search },
-		sort: 'date desc',
+		sort: 'date desc, :mtime desc',
 		limit: @{ itemsPerPage | def(10) },
 		page: @{ ?page | def(1) } 
 	} @>
