@@ -6,6 +6,7 @@
     "tooltips": {
         "appleTouchIcon": "The file to be used as Apple touch icon",
         "checkboxDarkTheme": "Enable dark theme",
+        "checkboxHideDateAndTags": "Hide date and tags in post",
         "checkboxHideFilters": "Hide filters for blog posts",
         "checkboxHideSearch": "Hide search field",
         "checkboxShowInFooter": "Show a link to this page in the footer menu",

@@ -3,11 +3,13 @@
 	<section>
 		<header>
 			<h1>@{ title }</h1>
-			<p>
-				<@ date.php @>
-				|
-				<@ tags.php @>
-			</p>
+			<@ if not @{ checkboxHideDateAndTags } @>
+				<p>
+					<@ date.php @>
+					|
+					<@ tags.php @>
+				</p>
+			<@ end @>
 		</header>
 		@{ textTeaser | markdown }
 		@{ text | markdown }
