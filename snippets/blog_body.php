@@ -42,7 +42,7 @@
 				<br>
 			<@ end @>
 			<@ if not @{ checkboxHideFilters } or not @{ checkboxHideSearch } @>
-				<br><br>
+				<hr>
 			<@ end @>
 		</header>
 	</section>
