@@ -2,9 +2,9 @@
 <br>
 <@ newPagelist { type: 'siblings' } @>
 <@ with prev @>
-	<a href="@{ url }"><<< @{ title }</a>
+	<a href="@{ url }">&lt; @{ title }</a>
 <@ end @>
 |
 <@ with next @>
-	<a href="@{ url }">@{ title } >>></a>
+	<a href="@{ url }">@{ title } &gt;</a>
 <@ end @>
