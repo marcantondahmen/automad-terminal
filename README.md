@@ -2,7 +2,7 @@
 
 A minimal and responsive blog theme for the [Automad](https://automad.org) CMS based on the beautiful [Terminal CSS](https://terminalcss.xyz) framework, including a [light](#light-scheme) and a [dark](#dark-scheme) color scheme. Check out the demo page and all available templates [here](https://terminal.dev.automad.org).
 
-![](https://terminal.dev.automad.org/shared/terminal-light-1.png)
+![](https://terminal.dev.automad.org/shared/terminal-dark-1.png)
 
 ## Configuration
 
@@ -35,10 +35,10 @@ This theme includes two different color schemes.
 ### Light Scheme
 
 ![](https://terminal.dev.automad.org/shared/terminal-mobile-light.png)
+![](https://terminal.dev.automad.org/shared/terminal-light-1.png)
 ![](https://terminal.dev.automad.org/shared/terminal-light-2.png)
 
 ### Dark Scheme
 
 ![](https://terminal.dev.automad.org/shared/terminal-mobile-dark.png)
-![](https://terminal.dev.automad.org/shared/terminal-dark-1.png)
 ![](https://terminal.dev.automad.org/shared/terminal-dark-2.png)
