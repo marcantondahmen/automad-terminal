@@ -8,13 +8,13 @@ A minimal and responsive blog theme for the [Automad](https://automad.org) CMS b
 
 There are multiple variables to configure this theme. Find below a list of the most important options to control the look and feel of your blog.
 
-### Tag Target URL
-
-Every post can have one or more tags. Clicking such a tag will open the main blog page filtered by the clicked tag. By default that main blog page will be the parent page of the post. You can define the `Url Tag Link Target` variable to use a different URL as target instead.
-
 ### Add Pages to Navbar and Footer
 
 You can use the `Show In Navbar` and `Show In Footer` switches within a page's *Data and Settings* section to add a page to the navbar or footer menu. Note that you can still hide a page from the blog and sidebar by switching on the `Hide Page from Navigation` toggle at the same time.
+
+### Preview Cards for Facebook or Twitter
+
+This theme supports open graph preview cards to be displayed when sharing a page on Twitter or Facebook out of the box. To show a selected image along with your post when sharing it, you just have to assing the image URL to the `Og Image` field in the page data section. You can also set an image glabally for all posts by defining the same field in the *Global Data and Files* section. 
 
 ### Google Analytics and Other Custom Header or Footer Items
 
@@ -27,6 +27,14 @@ By default the [light](#light-scheme) color scheme is used by this theme. You ca
 ### Hide Search or Filters
 
 By default the blog templates show a search bar as well as a list of tags to filter the blog posts. The `Hide Filters` and `Hide Search` switches can be used to hide those elements from a blog page.
+
+### Filter Blog Pages by Template
+
+To provide more control over the selection of pages that are getting displayd in your blog, you can define a regex pattern in the `Template Filter` field of the blog page to filter pages by its template name. For example by setting that field to `post`, the blog page will only show pages that are using a template with a name including the word "post".
+
+### Tag Target URL
+
+Every post can have one or more tags. Clicking such a tag will open the main blog page filtered by the clicked tag. By default that main blog page will be the parent page of the post. You can define the `Url Tag Link Target` variable to use a different URL as target instead.
 
 ## Color Schemes
 
