@@ -11,7 +11,7 @@
 		}
 	],
     "require": {
-        "automad/package-installer": "^1.1",
-		"automad/meta-tags": "^1.1"
+        "automad/package-installer": "^1.1 || dev-master",
+		"automad/meta-tags": "^1.1 || dev-master"
     }
 }
