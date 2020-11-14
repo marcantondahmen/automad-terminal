@@ -21,6 +21,9 @@
 	<@ if @{ checkboxDarkTheme } @>
 		<link rel="stylesheet" href="/packages/@{ theme }/dist/terminal/terminal.dark.css">
 	<@ end @>
+	<link rel="stylesheet" href="/packages/automad/lightbox/dist/lightbox.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="/packages/automad/lightbox/dist/lightbox.min.js"></script>
 	@{ itemsHeader }
 </head>
 <body class="terminal">

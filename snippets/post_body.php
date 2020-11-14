@@ -9,8 +9,8 @@
 				<@ tags.php @>
 			</p>
 		</header>
-		@{ textTeaser | markdown }
-		@{ text | markdown }
+		@{ textTeaser | Automad/Lightbox | markdown }
+		@{ text | Automad/Lightbox | markdown }
 		<@ prev_next.php @>
 	</section>
 </main>

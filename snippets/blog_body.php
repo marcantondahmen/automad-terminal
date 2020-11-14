@@ -12,7 +12,7 @@
 	<section>
 		<header>
 			<br>
-			@{ textTeaser | markdown }
+			@{ textTeaser | Automad/Lightbox | markdown }
 			<@ if not @{ checkboxHideSearch } @>	
 				<form action="" class="form-group">
 					<input 
@@ -61,7 +61,7 @@
 					<@ end @>
 				<@ end @>
 			</p>
-			@{ textTeaser | markdown }
+			@{ textTeaser | Automad/Lightbox | markdown }
 			<a href="@{ url }">
 				@{ labelMore | def ('More &gt;') }
 			</a>

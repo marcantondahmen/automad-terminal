@@ -4,7 +4,7 @@
 		<header>
 			<h1>@{ title }</h1>
 		</header>
-		@{ textTeaser | markdown }
-		@{ text | markdown }
+		@{ textTeaser | Automad/Lightbox | markdown }
+		@{ text | Automad/Lightbox | markdown }
 	</section>
 </main>

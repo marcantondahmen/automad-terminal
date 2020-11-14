@@ -12,6 +12,7 @@
 	],
     "require": {
         "automad/package-installer": "^1.1 || dev-master",
-		"automad/meta-tags": "^1.1 || dev-master"
+        "automad/meta-tags": "^1.1 || dev-master",
+        "automad/lightbox": "^1.0 || dev-master"
     }
 }
