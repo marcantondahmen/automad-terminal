@@ -5,7 +5,7 @@
 			<h1>@{ title }</h1>
 			<p>
 				<@ date.php @>
-				|
+				<@ if @{ tags } @>|<@ end @>
 				<@ tags.php @>
 			</p>
 		</header>
