@@ -3,6 +3,19 @@
     "description": "A minimal blog theme for terminal lovers",
 	"author": "Marc Anton Dahmen",
     "license": "MIT",
+    "masks": {
+        "page": [
+            "appleTouchIcon",
+            "favicon",
+            "labelMore",
+            "labelShowAll",
+            "placeholderSearch"
+        ],
+        "shared": [
+            "text",
+            "textTeaser"
+        ]
+    },
     "tooltips": {
         "appleTouchIcon": "The file to be used as Apple touch icon",
         "checkboxDarkTheme": "Enable dark theme",
