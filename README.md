@@ -2,7 +2,7 @@
 
 A minimal and responsive blog theme for the [Automad](https://automad.org) CMS based on the beautiful [Terminal CSS](https://terminalcss.xyz) framework, including a [light](#light-scheme) and a [dark](#dark-scheme) color scheme. Check out the demo page and all available templates [here](https://terminal.dev.automad.org).
 
-![](https://terminal.dev.automad.org/shared/terminal-dark-1.png)
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/terminal/terminal-dark-1.webp)
 
 ## Configuration
 
@@ -10,11 +10,11 @@ There are multiple variables to configure this theme. Find below a list of the m
 
 ### Add Pages to Navbar and Footer
 
-You can use the `Show In Navbar` and `Show In Footer` switches within a page's *Data and Settings* section to add a page to the navbar or footer menu. Note that you can still hide a page from the blog and sidebar by switching on the `Hide Page from Navigation` toggle at the same time.
+You can use the `Show In Navbar` and `Show In Footer` switches within a page's _Data and Settings_ section to add a page to the navbar or footer menu. Note that you can still hide a page from the blog and sidebar by switching on the `Hide Page from Navigation` toggle at the same time.
 
 ### Preview Cards for Facebook or Twitter
 
-This theme supports open graph preview cards to be displayed when sharing a page on Twitter or Facebook out of the box. To show a selected image along with your post when sharing it, you just have to assing the image URL to the `Og Image` field in the page data section. You can also set an image glabally for all posts by defining the same field in the *Global Data and Files* section. 
+This theme supports open graph preview cards to be displayed when sharing a page on Twitter or Facebook out of the box. To show a selected image along with your post when sharing it, you just have to assing the image URL to the `Og Image` field in the page data section. You can also set an image glabally for all posts by defining the same field in the _Global Data and Files_ section.
 
 ### Google Analytics and Other Custom Header or Footer Items
 
@@ -42,11 +42,11 @@ This theme includes two different color schemes.
 
 ### Light Scheme
 
-![](https://terminal.dev.automad.org/shared/terminal-mobile-light.png)
-![](https://terminal.dev.automad.org/shared/terminal-light-1.png)
-![](https://terminal.dev.automad.org/shared/terminal-light-2.png)
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/terminal/terminal-mobile-light.webp)
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/terminal/terminal-light-1.webp)
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/terminal/terminal-light-2.webp)
 
 ### Dark Scheme
 
-![](https://terminal.dev.automad.org/shared/terminal-mobile-dark.png)
-![](https://terminal.dev.automad.org/shared/terminal-dark-2.png)
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/terminal/terminal-mobile-dark.webp)
+![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/terminal/terminal-dark-2.webp)
