@@ -1,6 +1,6 @@
 # Terminal Theme
 
-A minimal and responsive blog theme for the [Automad](https://automad.org) CMS based on the beautiful [Terminal CSS](https://terminalcss.xyz) framework, including a [light](#light-scheme) and a [dark](#dark-scheme) color scheme.
+A minimal and responsive blog theme for the [Automad](https://automad.org) CMS based on the beautiful [Terminal CSS](https://terminalcss.xyz) framework, including a [light](#light-scheme) and a [dark](#dark-scheme) color scheme. Check out the demo page and all available templates [here](https://terminal.dev.automad.org).
 
 ![](https://raw.githubusercontent.com/marcantondahmen/media-files/master/themes/terminal/terminal-dark-1.webp)
 
